@@ -1,0 +1,4 @@
+# IGNITE Tech Explore
+
+language = "python3"
+run = "python python_activities/1_intro_to_python/9_pizza_generator_TEMPLATE.py"
