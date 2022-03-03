@@ -1,5 +1,5 @@
 # IGNITE GameDev
 language = "python3"
-run = "python python/1_intro/intro_code.py"
+run = "python python/1_intro/1_intro_code.py"
 
 # run = "python [full file path]"  # change this to your new file path each time you run a new file
