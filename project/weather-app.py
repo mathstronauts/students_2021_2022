@@ -1,9 +1,9 @@
 # import libraries
 import pygame
-from mathstropy import *
+import mathstropy
 
 # Create our textbox
-#textinput = TextInput(initial_string="", font_size=)
+textinput = mathstropy.TextInput(initial_string="Toronto", font_size=30)
 
 #------------------------------------------------------
 # Weather API
@@ -24,10 +24,10 @@ from mathstropy import *
 #WIDTH = 
 #HEIGHT =
 
-#screen = pygame.display.set_mode(([x,y]))
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 # initialize display text
-text = TextDisplay(screen)
+text = mathstropy.TextDisplay(screen)
 
 # define some colours
 WHITE = (255, 255, 255)
@@ -38,9 +38,9 @@ BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 
 # Import the images
-# background_file = "project/images/[file_name].png"
-# background = pygame.image.load(background_file)
-# backgroundRect = background.get_rect()
+#background_file = "project/images/[file_name].png"
+#background = pygame.image.load(background_file)
+#backgroundRect = background.get_rect()
 
 #----------------------------------------------------------------
 # Call API data functions
