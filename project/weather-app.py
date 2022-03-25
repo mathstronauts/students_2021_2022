@@ -1,6 +1,7 @@
 # import libraries
 import pygame
 import mathstropy
+import requests
 
 # Create our textbox
 textinput = mathstropy.TextInput(initial_string="Toronto", font_size=30)
@@ -10,7 +11,7 @@ textinput = mathstropy.TextInput(initial_string="Toronto", font_size=30)
 #URL = "https://api.openweathermap.org/data/2.5/weather?"
 
 # API Key
-#"19375602113c10e69b03a7ecc71e655f"
+#API_KEY = "19375602113c10e69b03a7ecc71e655f"
 
 # Get Weather Data
 
