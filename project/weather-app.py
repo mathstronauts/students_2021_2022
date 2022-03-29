@@ -8,10 +8,8 @@ textinput = mathstropy.TextInput(initial_string="Toronto", font_size=30)
 
 #------------------------------------------------------
 # Weather API
-#URL = "https://api.openweathermap.org/data/2.5/weather?"
-
-# API Key
-#API_KEY = "19375602113c10e69b03a7ecc71e655f"
+URL = "https://api.openweathermap.org/data/2.5/weather?"
+API_KEY = "19375602113c10e69b03a7ecc71e655f"
 
 # Get Weather Data
 
