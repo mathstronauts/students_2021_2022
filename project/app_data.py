@@ -16,6 +16,6 @@ var = {}  # dictionary to store weather data displayed on app screen
 
 #------------------------------------------------------
 # Week 8: start coding here!
-def getWeather():
+def get_weather():
     global var
     pass

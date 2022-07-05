@@ -13,7 +13,7 @@ BLUE = (0,0,255)
 
 #------------------------------------------------------
 # Week 9: start coding here!
-def update_weather_data(text, var):
+def update_data(text, var):
     # set font colour
 
     # draw text on screen

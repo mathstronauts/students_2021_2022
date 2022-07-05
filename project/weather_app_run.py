@@ -23,7 +23,7 @@ BLACK = (0, 0, 0)
 screen.fill(BLACK)  # start with a black screen
 
 # call API data functions
-weather_data = app_data.getWeather()
+weather_data = app_data.get_weather()
 
 # initialize display text
 text = mathstropy.TextDisplay(screen)
@@ -42,7 +42,7 @@ while running:
         # check if ENTER key pressed and refresh city data
         keypressed = pygame.key.get_pressed()  # returns key pressed
         if keypressed[pygame.K_RETURN]:  # if enter key pressed
-            weather_data = app_data.getWeather()
+            weather_data = app_data.get_weather()
 
     #----------------------------------------
     # draw screen
@@ -51,7 +51,7 @@ while running:
 
     #-----------------------------------------
     # display text
-    app_text.update_weather_data(text, weather_data)
+    app_text.update_data(text, weather_data)
 
     #-----------------------------------------
     #draw textbox
