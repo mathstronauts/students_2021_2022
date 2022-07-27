@@ -1,6 +1,3 @@
-##########################################################################################################################################################
-## Student Starting Template Below ##
-
 import random
 ## Planet Statistics ##
 ## Radius in km
@@ -21,31 +18,28 @@ planet3RingNumber = 5
 
 score = 0
 
-## Students should code question 1 themselves ()
+## Question 1 Below ##
+## Q1: Which planet has a radius of (planet1Radius) km?
 
-##print("Which planet has a radius of " + str(planet1Radius) + " km?")
-##print(planet1 + "\n" + planet2 + "\n" + planet3)
-##answer1 = planet1
-##userResponse1 = input("Enter " + planet1 + ", " + planet2 + ", or " + planet3 + ": ")
-##if userResponse1 == answer1:
-##    print("Correct!")
-##    print(answer1 + " has a radius of " + str(planet1Radius) + " km")
-##    score = score + 1
-##else:
-##    print("Incorrect!")
 
-## Students can use the following code as templates for questions 2 and 3
-## Focus on determining the answer via code for Q2
+
+## Question 2 Here ##
+## Q2: Which of the following planets have the most rings?
+## Focus on determining the answer via code for Q2, use the provided code for inputting and grading the user answer
 userResponse2 = input("Enter " + planet1 + ", " + planet2 + ", or " + planet3 + ": ")
 if userResponse2 == answer2:
     print("Correct!")
-    print(answer2 + " has the most rings")
     score = score + 1
 else:
     print("Incorrect!")
+    print(answer2 + " has the most rings")
 print()
 
-## Focus on determining the question and answer based on the random number for Q3
+
+
+## Question 3 Here ##
+## Q3: Which planet is (random planet position out of the 3 variable positions) planets away from the Sun?
+## Focus on determining the question and answer based on the random number for Q3, use the provided code for inputting and grading the user answer
 userResponse3 = input("Enter " + planet1 + ", " + planet2 + ", or " + planet3 + ": ")
 if userResponse3 == answer3:
     print("Correct!")
@@ -54,3 +48,8 @@ if userResponse3 == answer3:
 else:
     print("Incorrect!")
 print()
+
+
+
+
+## Print Final Score ## 
