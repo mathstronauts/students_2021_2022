@@ -20,8 +20,6 @@ screen = pygame.display.set_mode((WIDTH,HEIGHT))
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
-screen.fill(BLACK)  # start with a black screen
-
 # call API data functions
 weather_data = app_data.get_weather()
 
@@ -46,7 +44,7 @@ while running:
 
     #----------------------------------------
     # draw screen
-    # app_screen.screen_refresh(screen)
+    screen.fill(WHITE) # start with a white screen
     app_screen.update_screen(screen, weather_data)
 
     #-----------------------------------------
