@@ -1,9 +1,8 @@
 """
- * Copyright (C) Mathstronauts. All rights reserved.
- * This information is confidential and proprietary to Mathstronauts and may not be used, modified, copied or distributed.
+Workshop: Random Pizza Generator
+Goal: Print pizza options for the user and randomly select items from the data structures (lists, tuples, and dictionaries) to create a random pizza!
 """
-# Random Pizza Generator Template
-
+# import libraries
 import random
 
 # pizza lists
@@ -22,6 +21,9 @@ input("Press Enter to generate a random pizza.") #dont need a variable because t
 # generate a random index position
 
 # generate a random item for each list
+selected_meat = ""
+selected_veggie = ""
+selected_crust = ""
 
 # message to users
 print("Your random pizza is:")

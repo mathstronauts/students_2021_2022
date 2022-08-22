@@ -1,6 +1,6 @@
 """
- * Copyright (C) Mathstronauts. All rights reserved.
- * This information is confidential and proprietary to Mathstronauts and may not be used, modified, copied or distributed.
+Workshop: Calculator
+Goal: Create a simple calculator that takes 2 integers from the user and calculates a result using the add, subtract, multiply, divide, and exponent operators.
 """
 #print greetings
 print('Welcome to my simple calculator!')
@@ -8,7 +8,7 @@ print('Welcome to my simple calculator!')
 #get user inputs
 operation = input('Please enter operation(+,-,*,/,**): ')
 
-if (conditional statment):
+if ():
     base = input('Please enter base integer: ')
     exp = input('Please enter exponent: ')
     
@@ -16,36 +16,29 @@ else:
     first_num = input('Please enter first integer: ')
     second_num = input('Please enter second integer: ')
 
-#if sum operation
-if(condition statement):    
+#sum operation
+if():    
     #sum the two numbers
-
-    #output the sum to the user
 	
-#if subtract operation
-elif(condition statement):    
+#subtract operation
+elif():    
     #subtract the two numbers
 
-    #output the difference to the user
-
-#if multiply operation
-elif(condition statement):    
+#multiply operation
+elif():    
     #multiply the two numbers
 
-    #output the product to the user
-
-#if divide operation
-elif(condition statement):    
+#divide operation
+elif():    
     #divide the two numbers
 
-    #output the quotient to the user
-
-#if exponent operation
-elif(condition statement):    
+#exponent operation
+elif():    
     #base to the power of exponent
-
-    #output the total to the user
     
 #operation not valid
 else:
     print()
+
+#print result for user
+print()
